@@ -1,0 +1,27 @@
+.swiper {
+  width: 1000px;
+  height: 300px;
+}
+.swiper-wrapper{
+  width: 500px;
+}
+
+.swiper-slide{
+  margin: 0 5rem;
+}
+.swiper-slide:nth-child(even){
+  background-color: red;
+}
+.swiper-slide:nth-child(odd){
+  background-color: blue;
+}
+@media screen and (max-width:500px) {
+  .swiper{
+    width: 100%;
+  }
+  .swiper-slide{
+    margin: 0 2rem;
+    height: 200px;
+    width: 300px;
+  }
+}
